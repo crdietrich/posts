@@ -1,0 +1,27 @@
+name: pem1
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - ipykernel
+  - matplotlib
+  - pandas
+  - textblob
+  - seaborn
+  - pytesseract
+  - pip
+  - pip:
+    - torch
+    - google-cloud-aiplatform
+    - transformers
+    - requests
+    - shapely<2.0.0
+    - openai~=0.26.4
+    - scipy~=1.10.0
+    
+variables:
+  variable_1: example_placeholder_value
+  
